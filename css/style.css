@@ -22,7 +22,7 @@ Span{
 }
 
 #home{
-background-image:url(/image/hero-bg.svg);
+background-image:url(../image/hero-bg.svg);
 width: 100%;
 height: 800px;
 background-size: cover;
