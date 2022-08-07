@@ -23,14 +23,15 @@ Span{
 
 .header{
     width: 100%;
-    padding: 0 8%;
-    position: relative;
+    padding: 0 4%;
+    position: fixed;
 }
 
 nav{
     display: flex;
     align-items:center ;
     justify-content: space-between;
+    background: #fff;
 }
 
 .logo{
@@ -184,4 +185,76 @@ flex: 50%;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    display: flex;
 }
+
+.container{
+    flex: 50%;
+}
+
+
+.contents{
+    padding-top: 20%;
+    padding-left:15% ;
+}
+
+.contents h2{
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.contents h3{
+    font-size: 28px;
+}
+
+.contents p{
+    color: #787878;
+    font-size: 20px;
+}
+
+.countries-box{
+width: 100%;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding-right: 10px;
+margin-left: 0;
+position: absolute;
+right: 23%;
+}
+
+.img-box{
+    display: flex;
+    width: 70px;
+    background-color: #FFFAFA;
+    border:none;
+    margin: 15px;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.prog-img img{
+    padding: 5px;
+    height: 70%;
+    width: 70%;
+}
+
+.cont-img{
+    margin-top: 15%;
+    margin-left: 10%;
+
+}
+
+.cont-img img{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    object-position: center;
+    align-items: flex-end;
+    margin-left: 15%;
+
+}
+
